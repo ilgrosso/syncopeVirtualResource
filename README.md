@@ -17,3 +17,9 @@ with basically no configuration nor capabilities.
 
 Just create users and assign them the only resource available: you will see that everything works even
 though there is no effective propagation: basically, the concept of a **virtual resource**.
+
+## Limitations
+Since Virtual Connector has no capabilities (and thus no propagation takes place), there is no mean for 
+Apache Syncope to check the user status on such virtual resource: right after creation, then, when 
+checking user status on associated resources, the status icon for Virtual Resource will be 'red' (no link
+found).
