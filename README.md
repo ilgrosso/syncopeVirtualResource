@@ -12,7 +12,7 @@ syncopeVirtualResource
 You can see now that there is a single resource named *Virtual Resource*, referring to the sole connector
 instance available - *Virtual Connector*. The schema mapping is also the bare minimum required.
 
-Such connector instance has a [CSVDir connector bundle](https://code.google.com/p/connid/wiki/CSVDirectory) 
+Such connector instance has a [CSVDir connector bundle](https://connid.atlassian.net/wiki/display/BASE/CSV+Directory) 
 with basically no configuration nor capabilities.
 
 Just create users and assign them the only resource available: you will see that everything works even
